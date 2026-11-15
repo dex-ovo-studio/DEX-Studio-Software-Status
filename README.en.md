@@ -44,7 +44,6 @@ Mystery uses the **D.E.X** name on its website and installer. The current releas
 | Version | 2.1.0 |
 | Filename | `DEX-Setup-2.1.0-x64.exe` |
 | Size | 140,793,551 bytes |
-| Digital signature | Unsigned |
 
 SHA-256:
 
@@ -56,7 +55,7 @@ ff206d3eece2740ea557cc46e8571341cd3acf4b74d073806eb99c5a0d126880
 Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 ```
 
-Download the installer from the versioned release page. Automatic source archives contain this repository's documentation, not the client source or installer. The website download can change with later releases. Verify the version, filename and source; an unsigned installer may trigger a Windows security prompt.
+Download the installer from the versioned release page. Automatic source archives contain this repository's documentation, not the client source or installer. The website download can change with later releases. Verify the version, filename and source.
 
 </details>
 

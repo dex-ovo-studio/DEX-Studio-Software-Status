@@ -34,59 +34,97 @@ export function validate(catalog) {
 
 export function render(catalog) {
   validate(catalog)
-  const rows = catalog.software.map(item => {
-    const repo = item.source === 'website' ? item.homepage : `https://github.com/${item.repository}`
-    const download = item.source === 'website' ? item.download : `${repo}/releases/tag/${encodeURIComponent(item.releaseTag)}`
-    const history = item.history || `${repo}/releases`
-    return `| **[${text(item.name)}](${repo})** | ${maintenance[item.maintenance]} | ${stages[item.stage]} | ${item.platforms.map(text).join(' / ')} | ${text(item.version)} | ${item.checkedAt} | [下载](${download}) · [指南](${item.guide}) · [${item.source === 'website' ? '版本记录' : '更新日志'}](${item.changelog}) · [历史版本](${history}) |`
-  }).join('\n')
-  const migration = catalog.software.filter(item => item.maintenance === 'discontinued').map(item => `- **${text(item.name)}**：${text(item.migration)}`).join('\n')
-  return `<div align="center">
+  const entries = catalog.software.map(item => {
+    const website = item.source === 'website'
+    const home = website ? item.homepage : `https://github.com/${item.repository}`
+    return { ...item, home, website,
+      downloadUrl: website ? item.download : `${home}/releases/tag/${encodeURIComponent(item.releaseTag)}`,
+      historyUrl: item.history || `${home}/releases` }
+  })
+  const rows = entries.map(item =>
+    `| **[${text(item.name)}](${item.home})** | ${maintenance[item.maintenance]} | ${item.platforms.map(text).join(' / ')} | ${text(item.version)} | [下载](${item.downloadUrl}) · [指南](${item.guide}) | [${item.website ? '官网' : '仓库'}](${item.home}) |`
+  ).join('\n')
+  const installs = entries.map(item =>
+    `| **${text(item.name)}** | ${item.platforms.map(text).join(' / ')} | [${stages[item.stage]} ${text(item.version)}](${item.downloadUrl}) | [安装与使用](${item.guide}) |`
+  ).join('\n')
+  const details = entries.map(item => `### ${text(item.name)}
 
-# D.E.X Studio Software Status
+**${stages[item.stage]} · ${item.platforms.map(text).join(' / ')}**
 
-**软件状态与下载**
+${item.website ? '官网与安装包使用 D.E.X 名称。安装包信息、文件校验值和使用说明见下载指南。' : '提供订阅管理、代理组切换和主题设置。安装与配置步骤见使用指南。'}
 
-D.E.X Studio 软件维护状态、公开版本与官方入口。
+[下载当前版本](${item.downloadUrl}) · [使用指南](${item.guide}) · [${item.website ? '版本记录' : '更新日志'}](${item.changelog}) · [历史版本](${item.historyUrl})
 
-[软件总览](#软件总览) · [状态说明](#状态说明) · [更新记录](CHANGELOG.md)
+最近核对：${item.checkedAt}。`).join('\n\n')
+  const inactive = entries.filter(item => item.maintenance !== 'active').map(item =>
+    `- **[${text(item.name)}](${item.home})**：${item.maintenance === 'paused' ? '维护暂停，已发布版本仍提供下载；恢复常规更新的时间以正式公告为准。' : `停止维护。${text(item.migration)}`}`
+  ).join('\n')
+  const history = entries.map(item =>
+    `| **${text(item.name)}** | [查看历史版本](${item.historyUrl}) | ${item.website ? '已核对的历史记录见版本页，下载开放范围以页面标注为准。' : '按 Release 选择版本，查看对应说明与附件。'} |`
+  ).join('\n')
+  return `# D.E.X Studio Software Status
 
-</div>
+**D.E.X Studio 软件导航 · 维护状态 · 最新下载 · 历史版本**
+
+集中查看软件维护状态、支持平台和官方发布入口。
+
+[软件总览](#-软件总览) · [快速安装](#-快速安装) · [软件介绍](#-软件介绍) · [历史版本](#-历史版本) · [反馈](https://github.com/${studioRepository}/issues)
+
+## 📊 软件总览
+
+> 🟢 持续维护 · 🟡 维护暂停 · ⚪ 停止维护
+
+| 软件 | 维护状态 | 适配平台 | 当前版本 | 下载 / 指南 | 项目入口 |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+${rows}
+
+维护状态与发布阶段分别标注。公开测试版仍在完善功能与兼容性；正式版的支持范围以软件说明为准。
 
 ---
 
-## 软件总览
+## ⚡ 快速安装
 
-| 软件 | 维护状态 | 发布阶段 | 支持平台 | 当前版本 | 核对日期 | 官方入口 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-${rows}
+| 软件 | 系统 | 当前发布 | 安装说明 |
+| :--- | :--- | :--- | :--- |
+${installs}
 
-下载入口指向软件的官方发布页或官网。历史版本页会明确标注可下载范围。测试版本的功能与兼容性可能继续调整，安装前请阅读相应版本说明。
-${migration ? `\n## 迁移说明\n\n${migration}\n` : ''}
-## 状态说明
+1. 选择软件，确认系统和安装包架构相符。
+2. 从上表进入官方发布页或官网下载，按对应指南安装。
+3. 升级前备份个人配置，并阅读版本说明。
 
-### 维护状态
+目前收录的平台：**${[...new Set(entries.flatMap(item => item.platforms))].map(text).join(' / ')}**。其他平台将在正式提供下载后收录。
 
-| 状态 | 含义 |
-| :--- | :--- |
-| 🟢 持续维护 | 继续提供版本更新或问题修复。 |
-| 🟡 维护暂停 | 暂停常规更新，恢复时间以正式公告为准。 |
-| ⚪ 停止维护 | 不再提供常规更新，并提供迁移说明。 |
+---
 
-### 发布阶段
+## 🧭 软件介绍
 
-| 阶段 | 含义 |
-| :--- | :--- |
-| 公开测试 | 已提供公开下载，仍在收集反馈和完善功能。 |
-| 正式发布 | 已发布正式版本，支持范围以软件文档为准。 |
+${details}
 
-核对日期表示最近一次版本信息核验日期。维护状态由项目维护者确认，不根据提交频率自动判断。
+---
 
-## 支持与反馈
+## 🕘 历史版本
 
-- 使用问题和功能建议，请使用对应软件指南中的反馈入口。
-- 版本、状态或链接有误，请在[本仓库提交反馈](https://github.com/poniard-li/DEX-Studio-Software-Status/issues)。
-- 本页展示软件维护与发布信息；账号、下载及其他在线服务的实时可用性不在此状态范围内。
+| 软件 | 版本归档 | 下载说明 |
+| :--- | :--- | :--- |
+${history}
+
+历史版本可能存在已知问题，请先阅读对应版本说明。尚未提供独立下载地址的记录不作为可下载版本展示。
+
+---
+
+## ⏸ 维护暂停与停止维护
+
+${inactive || '当前没有维护暂停或停止维护的软件。'}
+
+${entries.some(item => item.maintenance === 'discontinued') ? '### 迁移说明\n\n停止维护软件的替代方案与数据迁移要求见上方项目说明。\n\n' : ''}维护暂停表示暂不提供常规更新；停止维护表示不再提供常规更新。两者均由维护者确认，不根据提交频率自动判断。
+
+## 💬 支持与反馈
+
+- **使用问题**：通过对应软件指南中的渠道反馈。
+- **链接或版本有误**：在[本仓库提交反馈](https://github.com/${studioRepository}/issues)。
+- **目录变化**：查看[更新记录](CHANGELOG.md)。
+
+核对日期表示最近一次版本信息核验日期。本页展示维护与发布信息，不代表账号、下载等在线服务的实时运行状态。
 
 ---
 

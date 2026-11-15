@@ -1,108 +1,80 @@
-<div align="center">
+<a id="software"></a>
+<a id="products"></a>
+<p><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/header.svg" alt="D.E.X Studio 软件状态与下载 / Software status and downloads · 🟢 常规更新 · 🔵 稳定支持 · 🟠 开发中 · ⚪ 停止支持" width="100%"><a href="https://github.com/dex-ovo-studio/Navio"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/product-0.svg" alt="Navio — Windows 代理管理 / Proxy management" width="45.8333%"></a><a href="https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/status-0.svg" alt="1.0.0-beta.7 · 常规更新 · 公开测试 / Public beta" width="54.1666%"></a><a href="https://github.com/dex-ovo-studio/Mystery"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/product-1.svg" alt="Mystery — 盲盒与抽奖 / Mystery box &amp; lucky draw" width="45.8333%"></a><a href="https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/status-1.svg" alt="2.1.0 · 稳定支持 · 正式版 / Stable release" width="54.1666%"></a><a href="https://github.com/dex-ovo-studio/DEX-TUNE"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/product-2.svg" alt="Tune — 便携调试 / Portable Windows tuning" width="45.8333%"></a><a href="https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/status-2.svg" alt="0.8 原型 · 开发中 · 暂无公开下载 / No download" width="54.1666%"></a><a href="https://github.com/dex-ovo-studio/DEX-Rider"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/product-3.svg" alt="Rovelio · 驭途 — 摩托车机 / Motorcycle dashboard" width="45.8333%"></a><a href="https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/status-3.svg" alt="Rebuild 01 · 开发中 · 暂无公开镜像 / No image" width="54.1666%"></a><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/spacer.svg" alt="" width="100%"><a href="#install"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/nav-0.svg" alt="安装与使用 / Installation &amp; guides" width="33.33%"></a><a href="#history"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/nav-1.svg" alt="历史版本 / Release history" width="33.33%"></a><a href="https://github.com/dex-ovo-studio"><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/nav-2.svg" alt="D.E.X Studio / Meet the studio" width="33.33%"></a><img align="top" src="https://raw.githubusercontent.com/dex-ovo-studio/DEX-Studio-Software-Status/main/assets/ui/footer.svg" alt="D.E.X Studio · Navio · Mystery · Tune · Rovelio" width="100%"></p>
 
-<img src="https://raw.githubusercontent.com/dex-ovo-studio/dex-ovo-studio/main/assets/studio-banner.svg" alt="D.E.X Studio" width="100%">
+<a id="install"></a>
 
-# Software status & downloads
+## 安装与使用 / Install & use
 
-[简体中文](README.md) · **English**
-
-**Project status · Official versions · Guides · Release archives**
-
-[Software](#software) · [Install](#install) · [History](#history) · [Support](#support)
-
-</div>
-
----
-
-## Software
-
-🟢 **Regular updates** · 🔵 **Stable support** · 🟠 **In development** · ⚪ **End of support**
-
-| Software | Purpose / platform | Version | Status | Downloads / details |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Navio](https://github.com/dex-ovo-studio/Navio)** | Proxy management · Windows x64 | 1.0.0-beta.7 | 🟢 Regular updates<br>Public beta | [Download](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [Guide (中文)](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
-| **[Mystery](https://github.com/dex-ovo-studio/Mystery)** | Mystery box & lucky draw · Windows x64 | 2.1.0 | 🔵 Stable support<br>Stable release | [Download](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [Website](https://mystery.mydex.top) |
-| **[Tune](https://github.com/dex-ovo-studio/DEX-TUNE)** | Portable tuning toolkit · Windows / USB | 0.8 | 🟠 In development<br>Internal prototype | [Status](https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md) · No public installer |
-| **[Rovelio](https://github.com/dex-ovo-studio/DEX-Rider)** | Motorcycle dashboard · Raspberry Pi | Rebuild 01 | 🟠 In development<br>Development prototype | [Status](https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md) · No public image |
-
-All four are projects by D.E.X Studio, listed together with their individual stages.
-
-Tune status is based on the 2026-11-11 development report; Rovelio status is based on the 2026-09-06 development conversation. Devices were not retested during this documentation update. Internal prototypes are not public releases.
-
-## Install
-
-| App | Official package | Before upgrading |
+| 软件 / Software | 官方下载 / Download | 使用指南 / Guide |
 | :--- | :--- | :--- |
-| **Navio** | [Windows x64 installer](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [Portable ZIP](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) | Back up configuration and read the [release notes](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) |
-| **Mystery** | [Windows x64 installer](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) | Back up local data and quit Mystery before installing |
+| Navio · Windows x64 | [安装版 / Installer](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [免安装版 / ZIP](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) | [安装、配置与排障](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
+| Mystery · Windows x64 | [安装版 / Installer](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) | [安装与升级](https://github.com/dex-ovo-studio/Mystery/blob/main/docs/guide.md) |
 
-Navio remains a public beta. Review its [known limitations](https://github.com/dex-ovo-studio/Navio/blob/main/README.en.md) before downloading. No public Android, macOS or Linux installers are currently available.
+升级前备份需要保留的资料，并退出正在运行的软件。Tune 与 Rovelio 尚未公开发行。  
+Back up your data and quit the app before upgrading. Tune and Rovelio have no public release yet.
 
-Mystery is a product by D.E.X Studio; existing installers retain historical D.E.X branding. The current release remains available with maintenance and feedback channels; routine feature updates are on hold.
+> **Navio Beta 7：** 部分断开场景下系统代理可能未恢复。使用前请阅读[已知问题](https://github.com/dex-ovo-studio/Navio#版本与下载--releases--downloads)。  
+> System proxy restoration may fail after disconnecting; read the known issue before use.
+
+<a id="mystery-guide"></a>
 
 <details>
-<summary><strong>Mystery installer verification</strong></summary>
+<summary>Mystery 安装说明与文件校验 / Installation & verification</summary>
 
-| Item | Details |
-| :--- | :--- |
-| Version | 2.1.0 |
-| Filename | `DEX-Setup-2.1.0-x64.exe` |
-| Size | 140,793,551 bytes |
+从 [2.1.0 版本页](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) 下载 `DEX-Setup-2.1.0-x64.exe`，退出旧版后按安装向导操作。完整步骤与可选文件校验见[使用指南](https://github.com/dex-ovo-studio/Mystery/blob/main/docs/guide.md)。
 
-SHA-256:
-
-```text
-ff206d3eece2740ea557cc46e8571341cd3acf4b74d073806eb99c5a0d126880
-```
-
-```powershell
-Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
-```
-
-Download the installer from the versioned release page. Automatic source archives contain this repository's documentation, not the client source or installer. The website download can change with later releases. Verify the version, filename and source.
+Download the versioned Windows installer, close the existing app and follow setup. See the user guide for optional file verification.
 
 </details>
 
-## History
+<a id="history"></a>
 
-[Navio release archive](https://github.com/dex-ovo-studio/Navio/releases)
+## 历史版本 / Release history
+
+[Navio 发行归档 / Navio releases](https://github.com/dex-ovo-studio/Navio/releases) · [Mystery 发行归档 / Mystery releases](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases)
+
+<a id="mystery-history"></a>
 
 <details>
-<summary><strong>Mystery release archive</strong></summary>
+<summary>Mystery 已发布版本 / Published Mystery releases</summary>
 
-| Version | Stage | Download |
-| :--- | :--- | :--- |
-| 2.1.0 | Current stable | [Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) |
-| 2.0.0 | Historical | [Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.0.0) |
-| 1.3.0 Local Test | Local only | Not publicly available |
-| 1.2.0 | Historical | [Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.2.0) |
-| 1.1.0 | Historical | [Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.1.0) |
-| 1.0.0 | Historical | [Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.0.0) |
-| 0.2.0 | Early release | [Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v0.2.0) |
+| 版本 / Version | 下载 / Download |
+| :--- | :--- |
+| **2.1.0 · 当前版本 / Current** | [版本页 / Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) |
+| 2.0.0 | [版本页 / Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.0.0) |
+| 1.2.0 | [版本页 / Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.2.0) |
+| 1.1.0 | [版本页 / Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.1.0) |
+| 1.0.0 | [版本页 / Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.0.0) |
+| 0.2.0 | [版本页 / Release](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v0.2.0) |
 
-Archives preserve original installers and may not cover every historical build. Older versions may have known issues or be incompatible with current account services. Each archived release provides file details and SHA-256 checksums.
+旧版保留供回溯，不保证兼容当前账号服务。日常使用建议选择 2.1.0。  
+Archived releases may not support current account services. Use 2.1.0 for everyday use.
 
 </details>
 
-## Support
+<a id="support-policy"></a>
 
-| Maintenance stage | Meaning |
-| :--- | :--- |
-| 🟢 **Regular updates** | Routine releases, maintenance and feedback channels; currently Navio |
-| 🔵 **Stable support** | Maintenance for the current release, with routine feature updates on hold; currently Mystery |
-| 🟠 **In development** | Prototype work in progress; no public installers yet |
-| ⚪ **End of support** | No further maintenance; migration plans follow project announcements |
+<details>
+<summary>彩色状态说明 / Status legend</summary>
 
-Maintenance stage is separate from release maturity. This page is not a live uptime monitor or a response-time commitment.
+- 🟢 **常规更新 / Active**：常规版本更新与维护。
+- 🔵 **稳定支持 / Stable support**：保留维护与反馈渠道，暂不安排常规功能更新。
+- 🟠 **开发中 / In development**：原型完善中，尚无公开发行包。
+- ⚪ **停止支持 / Ended**：停止版本维护，以项目公告为准。
 
-- **Navio:** [Issues](https://github.com/dex-ovo-studio/Navio/issues).
-- **Mystery:** [Official website](https://mystery.mydex.top).
-- **Directory corrections:** [Report incorrect versions, statuses or links](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/issues).
+Tune 进展记录：2026-11-11；Rovelio 进展记录：2026-09-06。详细完成情况见各自状态页。  
+Progress records: Tune 2026-11-11; Rovelio 2026-09-06. See each project's status page for details.
 
-Include the app version, operating system and reproduction steps; omit account credentials and private information.
+</details>
 
-<div align="center">
+<a id="support"></a>
 
-<sub>Reviewed: 2026-11-15 · [D.E.X Studio](https://github.com/dex-ovo-studio)</sub>
+## 支持与反馈 / Support & feedback
 
-</div>
+[Navio 使用反馈](https://github.com/dex-ovo-studio/Navio/issues) · [Mystery 官网反馈](https://mystery.mydex.top) · [下载与状态纠错](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/issues)
+
+反馈时提供软件版本、系统版本、复现步骤与错误提示。  
+Include the app version, operating system, steps to reproduce and error message.
+
+[返回 D.E.X Studio / Back to Studio](https://github.com/dex-ovo-studio)

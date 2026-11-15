@@ -16,25 +16,27 @@
 
 ## Software
 
-| Project | Purpose | Current version & stage | Downloads / status |
-| :--- | :--- | :--- | :--- |
-| **[Navio](https://github.com/dex-ovo-studio/Navio)** | Windows x64 proxy management | **1.0.0-beta.7 · Public beta** | [Download](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [Guide (中文)](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
-| **[Mystery](https://github.com/dex-ovo-studio/Mystery)** | Mystery box & lucky draw desktop app | **2.1.0 · Stable support** | [Download](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [Website](https://mystery.mydex.top) |
-| **[D.E.X TUNE](https://github.com/dex-ovo-studio/DEX-TUNE)** | Portable Windows tuning toolkit | **0.8 · Internal prototype** | [Status](https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md); no public installer |
-| **[D.E.X Rider](https://github.com/dex-ovo-studio/DEX-Rider)** | Motorcycle dashboard & voice interaction | **Rebuild 01 · Development prototype** | [Status](https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md); no public image |
+| Software | Purpose / platform | Version | Status | Downloads / details |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Navio](https://github.com/dex-ovo-studio/Navio)** | Proxy management · Windows x64 | 1.0.0-beta.7 | Public beta · Regular updates | [Download](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [Guide (中文)](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
+| **[Mystery](https://github.com/dex-ovo-studio/Mystery)** | Mystery box & lucky draw · Windows x64 | 2.1.0 | Stable release · Stable support | [Download](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [Website](https://mystery.mydex.top) |
+| **[Tune](https://github.com/dex-ovo-studio/DEX-TUNE)** | Portable tuning toolkit · Windows / USB | 0.8 | Internal prototype | [Status](https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md) · No public installer |
+| **[Rovelio](https://github.com/dex-ovo-studio/DEX-Rider)** | Motorcycle dashboard · Raspberry Pi | Rebuild 01 | Development prototype | [Status](https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md) · No public image |
 
-TUNE status is based on the 2026-11-11 development report; Rider status is based on the 2026-09-06 development conversation. Devices were not retested during this documentation update. Internal prototypes are not public releases.
+All four are projects by D.E.X Studio, listed together with their individual stages.
+
+Tune status is based on the 2026-11-11 development report; Rovelio status is based on the 2026-09-06 development conversation. Devices were not retested during this documentation update. Internal prototypes are not public releases.
 
 ## Install
 
 | App | Official package | Before upgrading |
 | :--- | :--- | :--- |
 | **Navio** | [Windows x64 installer](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [Portable ZIP](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) | Back up configuration and read the [release notes](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) |
-| **Mystery** | [Windows x64 installer](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) | Back up local data and quit D.E.X before installing |
+| **Mystery** | [Windows x64 installer](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) | Back up local data and quit Mystery before installing |
 
 Navio remains a public beta. Review its [known limitations](https://github.com/dex-ovo-studio/Navio/blob/main/README.en.md) before downloading. No public Android, macOS or Linux installers are currently available.
 
-Mystery uses the **D.E.X** name on its website and installer. The current release remains available with maintenance and feedback channels; routine feature updates are on hold.
+Mystery is a product by D.E.X Studio; existing installers retain historical D.E.X branding. The current release remains available with maintenance and feedback channels; routine feature updates are on hold.
 
 <details>
 <summary><strong>Mystery installer verification</strong></summary>

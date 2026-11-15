@@ -16,9 +16,10 @@ D.E.X Studio 软件维护状态、公开版本与官方入口。
 
 | 软件 | 维护状态 | 发布阶段 | 支持平台 | 当前版本 | 核对日期 | 官方入口 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[Navio](https://github.com/poniard-li/Navio)** | 🟢 持续维护 | 公开测试 | Windows x64 | 1.0.0-beta.7 | 2026-11-15 | [下载](https://github.com/poniard-li/Navio/releases/tag/v1.0.0-beta.7) · [指南](https://github.com/poniard-li/Navio/blob/main/docs/guide.md) · [更新日志](https://github.com/poniard-li/Navio/blob/main/CHANGELOG.md) |
+| **[Navio](https://github.com/poniard-li/Navio)** | 🟢 持续维护 | 公开测试 | Windows x64 | 1.0.0-beta.7 | 2026-11-15 | [下载](https://github.com/poniard-li/Navio/releases/tag/v1.0.0-beta.7) · [指南](https://github.com/poniard-li/Navio/blob/main/docs/guide.md) · [更新日志](https://github.com/poniard-li/Navio/blob/main/CHANGELOG.md) · [历史版本](https://github.com/poniard-li/Navio/releases) |
+| **[Mystery · D.E.X](https://mystery.mydex.top)** | 🟡 维护暂停 | 正式发布 | Windows x64 | 2.1.0 | 2026-11-15 | [下载](https://mystery.mydex.top/api/download) · [指南](https://github.com/poniard-li/DEX-Studio-Software-Status/blob/main/docs/mystery.md) · [版本记录](https://github.com/poniard-li/DEX-Studio-Software-Status/blob/main/docs/mystery-versions.md) · [历史版本](https://github.com/poniard-li/DEX-Studio-Software-Status/blob/main/docs/mystery-versions.md#历史版本) |
 
-版本与下载入口对应已发布的 GitHub Release。测试版本的功能与兼容性可能继续调整，安装前请阅读相应更新日志。
+下载入口指向软件的官方发布页或官网。历史版本页会明确标注可下载范围。测试版本的功能与兼容性可能继续调整，安装前请阅读相应版本说明。
 
 ## 状态说明
 
@@ -41,7 +42,7 @@ D.E.X Studio 软件维护状态、公开版本与官方入口。
 
 ## 支持与反馈
 
-- 使用问题和功能建议，请前往对应软件仓库的 Issues。
+- 使用问题和功能建议，请使用对应软件指南中的反馈入口。
 - 版本、状态或链接有误，请在[本仓库提交反馈](https://github.com/poniard-li/DEX-Studio-Software-Status/issues)。
 - 本页展示软件维护与发布信息；账号、下载及其他在线服务的实时可用性不在此状态范围内。
 

@@ -1,16 +1,14 @@
 <div align="center">
 
-<h1>D.E.X Studio Software Status</h1>
+<img src="https://raw.githubusercontent.com/dex-ovo-studio/Navio/main/.github/assets/dex-studio-banner.svg" alt="D.E.X Studio — 软件目录与下载" width="100%">
+
+<h1>软件目录与下载</h1>
 
 <p><strong>软件状态与下载 · 官方版本 · 使用指南 · 历史归档</strong></p>
 
-<p>
-  <img src="https://img.shields.io/badge/Update-2026.11.15-2563eb?style=flat-square" alt="Update: 2026.11.15">
-  <img src="https://img.shields.io/badge/Platform-Windows%20x64-0891b2?style=flat-square" alt="Platform: Windows x64">
-  <img src="https://img.shields.io/badge/Ecosystem-Navio%20%7C%20Mystery-7c3aed?style=flat-square" alt="Ecosystem: Navio | Mystery">
-</p>
+<p><strong>Navio · 公开测试</strong> &nbsp; / &nbsp; <strong>Mystery · 正式版</strong></p>
 
-<p>D.E.X Studio 软件官方导航。查看支持状态，获取当前版本与使用说明。</p>
+<p>D.E.X Studio 的公开软件入口。先了解版本状态，再选择适合自己的下载。</p>
 
 <p>
   <a href="#software">软件总览</a> ·
@@ -30,10 +28,10 @@
 
 > 🟢 **常规更新** · 🔵 **稳定支持** · ⚪ **停止支持**
 
-| 软件 | 支持状态 | 平台 | 当前版本 | 下载 / 指南 | 官方入口 |
-| :--- | :---: | :--- | :--- | :--- | :--- |
-| **Navio** | 🟢 常规更新 | Windows x64 | `1.0.0-beta.7` · 公开测试 | [下载](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) | [项目仓库](https://github.com/dex-ovo-studio/Navio) |
-| **Mystery · D.E.X** | 🔵 稳定支持 | Windows x64 | `2.1.0` · 正式版 | [下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [指南](#mystery-guide) | [官方网站](https://mystery.mydex.top) |
+| 软件                |  支持状态   | 平台        | 当前版本                  | 下载 / 指南                                                                                                                                          | 官方入口                                            |
+| :------------------ | :---------: | :---------- | :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------- |
+| **Navio**           | 🟢 常规更新 | Windows x64 | `1.0.0-beta.7` · 公开测试 | [下载](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) | [项目仓库](https://github.com/dex-ovo-studio/Navio) |
+| **Mystery · D.E.X** | 🔵 稳定支持 | Windows x64 | `2.1.0` · 正式版          | [下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [指南](#mystery-guide)                            | [官方网站](https://mystery.mydex.top)               |
 
 **稳定支持**表示当前版本继续提供维护与问题反馈渠道，暂不安排常规功能更新。更新频率与支持状态分别说明，具体定义见[支持说明](#support-policy)。
 
@@ -41,10 +39,14 @@
 
 ## 快速安装
 
-| 软件 | 安装方式 | 升级前准备 |
-| :--- | :--- | :--- |
-| **Navio** | 在发布页选择 Windows x64 安装版或免安装版，按[使用指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md)安装。 | 备份配置，阅读对应版本的[更新说明](https://github.com/dex-ovo-studio/Navio/blob/main/CHANGELOG.md)。 |
-| **Mystery · D.E.X** | 下载官网安装包，退出正在运行的客户端，按安装向导完成安装。 | 备份需要保留的本地资料，核对[安装包信息](#mystery-guide)。 |
+[Navio 安装版](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [Navio 免安装版](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) · [Mystery 2.1.0 安装版](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe)
+
+下载前请阅读对应版本说明。Navio 仍为公开测试版，已知限制见[项目首页](https://github.com/dex-ovo-studio/Navio#下载-navio)。
+
+| 软件                | 安装方式                                                                                                                       | 升级前准备                                                                                           |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| **Navio**           | 在发布页选择 Windows x64 安装版或免安装版，按[使用指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md)安装。 | 备份配置，阅读对应版本的[更新说明](https://github.com/dex-ovo-studio/Navio/blob/main/CHANGELOG.md)。 |
+| **Mystery · D.E.X** | 从固定版本页下载安装包，退出正在运行的客户端，按安装向导完成安装。                                                             | 备份需要保留的本地资料，核对[安装包信息](#mystery-guide)。                                           |
 
 目前提供 **Windows x64** 版本。请通过本页列出的官方入口下载，并确认系统与安装包架构相符。
 
@@ -75,16 +77,16 @@ Mystery 在官网与安装包中使用 **D.E.X** 名称。当前版本为 **2.1.
 <details>
 <summary><strong>Mystery 安装说明与文件校验</strong></summary>
 
-1. 从官网下载 Windows x64 安装包。
+1. 从 [2.1.0 固定版本页](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) 下载 Windows x64 安装包。
 2. 退出正在运行的 D.E.X；升级前备份需要保留的本地资料。
 3. 运行安装包，按安装向导完成安装。
 
-| 项目 | 内容 |
-| :--- | :--- |
-| 版本 | 2.1.0 |
-| 文件名 | `DEX-Setup-2.1.0-x64.exe` |
-| 大小 | 140,793,551 字节 |
-| 数字签名 | 未签名 |
+| 项目     | 内容                      |
+| :------- | :------------------------ |
+| 版本     | 2.1.0                     |
+| 文件名   | `DEX-Setup-2.1.0-x64.exe` |
+| 大小     | 140,793,551 字节          |
+| 数字签名 | 未签名                    |
 
 **SHA-256**
 
@@ -108,10 +110,10 @@ Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 
 ## 历史版本
 
-| 软件 | 版本入口 | 下载范围 |
-| :--- | :--- | :--- |
-| **Navio** | [GitHub Releases](https://github.com/dex-ovo-studio/Navio/releases) | 按版本选择发布说明与对应附件。 |
-| **Mystery · D.E.X** | [历史版本记录](#mystery-history) | 提供当前版本和已归档安装包，每版附 SHA-256 校验文件。 |
+| 软件                | 版本入口                                                            | 下载范围                                              |
+| :------------------ | :------------------------------------------------------------------ | :---------------------------------------------------- |
+| **Navio**           | [GitHub Releases](https://github.com/dex-ovo-studio/Navio/releases) | 按版本选择发布说明与对应附件。                        |
+| **Mystery · D.E.X** | [历史版本记录](#mystery-history)                                    | 提供当前版本和已归档安装包，每版附 SHA-256 校验文件。 |
 
 历史版本可能存在已知问题，安装前请阅读对应说明。官网下载按钮提供当前版本，不能用于下载指定旧版。
 
@@ -120,15 +122,15 @@ Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 <details>
 <summary><strong>Mystery 历史版本记录</strong></summary>
 
-| 版本 | 类型 | 下载状态 |
-| :--- | :--- | :--- |
-| 2.1.0 | 当前正式版 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [官网下载](https://mystery.mydex.top/api/download) |
-| 2.0.0 | 历史版本 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.0.0) |
-| 1.3.0 Local Test | 本地测试版 | 未开放公开下载 |
-| 1.2.0 | 历史版本 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.2.0) |
-| 1.1.0 | 历史版本 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.1.0) |
-| 1.0.0 | 历史版本 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.0.0) |
-| 0.2.0 | 早期版本 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v0.2.0) |
+| 版本             | 类型       | 下载状态                                                                                                                                                  |
+| :--------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2.1.0            | 当前正式版 | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [官网下载](https://mystery.mydex.top/api/download) |
+| 2.0.0            | 历史版本   | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.0.0)                                                      |
+| 1.3.0 Local Test | 本地测试版 | 未开放公开下载                                                                                                                                            |
+| 1.2.0            | 历史版本   | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.2.0)                                                      |
+| 1.1.0            | 历史版本   | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.1.0)                                                      |
+| 1.0.0            | 历史版本   | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.0.0)                                                      |
+| 0.2.0            | 早期版本   | [版本下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v0.2.0)                                                      |
 
 版本记录不代表完整发行历史。归档保留原始安装包，不代表旧版仍兼容当前账号服务。日常使用建议选择 2.1.0；1.3.0 Local Test 仍不提供公开下载。每个版本页均提供文件大小与 SHA-256。
 
@@ -140,10 +142,10 @@ Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 
 ## 支持说明
 
-| 状态 | 含义 |
-| :--- | :--- |
-| 🟢 **常规更新** | 提供常规版本更新、维护与问题反馈渠道。 |
-| 🔵 **稳定支持** | 当前版本继续维护，暂不安排常规功能更新。 |
+| 状态            | 含义                                       |
+| :-------------- | :----------------------------------------- |
+| 🟢 **常规更新** | 提供常规版本更新、维护与问题反馈渠道。     |
+| 🔵 **稳定支持** | 当前版本继续维护，暂不安排常规功能更新。   |
 | ⚪ **停止支持** | 不再提供版本维护，迁移安排以项目公告为准。 |
 
 支持状态不等同于在线服务可用率、实时监测或响应时限。公开测试与正式版属于发布阶段，与支持状态分别标注。
@@ -160,6 +162,6 @@ Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 
 <div align="center">
 
-<sub>版本信息核对：2026-11-15 · D.E.X Studio</sub>
+<sub>版本信息核对：2026-11-15 · <a href="https://github.com/dex-ovo-studio">D.E.X Studio</a></sub>
 
 </div>

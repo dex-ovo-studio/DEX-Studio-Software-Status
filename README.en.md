@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/dex-ovo-studio/dex-ovo-studio/main/assets/studio-banner.svg" alt="D.E.X Studio" width="100%">
 
-# Software directory & downloads
+# Software status & downloads
 
 [简体中文](README.md) · **English**
 
@@ -16,12 +16,14 @@
 
 ## Software
 
+🟢 **Regular updates** · 🔵 **Stable support** · 🟠 **In development** · ⚪ **End of support**
+
 | Software | Purpose / platform | Version | Status | Downloads / details |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Navio](https://github.com/dex-ovo-studio/Navio)** | Proxy management · Windows x64 | 1.0.0-beta.7 | Public beta · Regular updates | [Download](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [Guide (中文)](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
-| **[Mystery](https://github.com/dex-ovo-studio/Mystery)** | Mystery box & lucky draw · Windows x64 | 2.1.0 | Stable release · Stable support | [Download](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [Website](https://mystery.mydex.top) |
-| **[Tune](https://github.com/dex-ovo-studio/DEX-TUNE)** | Portable tuning toolkit · Windows / USB | 0.8 | Internal prototype | [Status](https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md) · No public installer |
-| **[Rovelio](https://github.com/dex-ovo-studio/DEX-Rider)** | Motorcycle dashboard · Raspberry Pi | Rebuild 01 | Development prototype | [Status](https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md) · No public image |
+| **[Navio](https://github.com/dex-ovo-studio/Navio)** | Proxy management · Windows x64 | 1.0.0-beta.7 | 🟢 Regular updates<br>Public beta | [Download](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [Guide (中文)](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
+| **[Mystery](https://github.com/dex-ovo-studio/Mystery)** | Mystery box & lucky draw · Windows x64 | 2.1.0 | 🔵 Stable support<br>Stable release | [Download](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [Website](https://mystery.mydex.top) |
+| **[Tune](https://github.com/dex-ovo-studio/DEX-TUNE)** | Portable tuning toolkit · Windows / USB | 0.8 | 🟠 In development<br>Internal prototype | [Status](https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md) · No public installer |
+| **[Rovelio](https://github.com/dex-ovo-studio/DEX-Rider)** | Motorcycle dashboard · Raspberry Pi | Rebuild 01 | 🟠 In development<br>Development prototype | [Status](https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md) · No public image |
 
 All four are projects by D.E.X Studio, listed together with their individual stages.
 
@@ -86,9 +88,10 @@ Archives preserve original installers and may not cover every historical build. 
 
 | Maintenance stage | Meaning |
 | :--- | :--- |
-| **Regular updates** | Routine releases, maintenance and feedback channels; currently Navio |
-| **Stable support** | Maintenance for the current release, with routine feature updates on hold; currently Mystery |
-| **End of support** | No further maintenance; migration plans follow project announcements |
+| 🟢 **Regular updates** | Routine releases, maintenance and feedback channels; currently Navio |
+| 🔵 **Stable support** | Maintenance for the current release, with routine feature updates on hold; currently Mystery |
+| 🟠 **In development** | Prototype work in progress; no public installers yet |
+| ⚪ **End of support** | No further maintenance; migration plans follow project announcements |
 
 Maintenance stage is separate from release maturity. This page is not a live uptime monitor or a response-time commitment.
 

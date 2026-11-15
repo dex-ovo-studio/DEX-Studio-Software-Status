@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dex-ovo-studio/Navio/main/.github/assets/dex-studio-banner.svg" alt="D.E.X Studio — 软件目录与下载" width="100%">
+<img src="https://raw.githubusercontent.com/dex-ovo-studio/dex-ovo-studio/main/assets/studio-banner.svg" alt="D.E.X Studio — 软件目录与下载" width="100%">
 
 <h1>软件目录与下载</h1>
+
+<p>Software directory & downloads</p>
+
+<p><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
 
 <p><strong>软件状态与下载 · 官方版本 · 使用指南 · 历史归档</strong></p>
 
@@ -31,7 +35,17 @@
 | 软件                |  支持状态   | 平台        | 当前版本                  | 下载 / 指南                                                                                                                                          | 官方入口                                            |
 | :------------------ | :---------: | :---------- | :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------- |
 | **Navio**           | 🟢 常规更新 | Windows x64 | `1.0.0-beta.7` · 公开测试 | [下载](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7) · [指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) | [项目仓库](https://github.com/dex-ovo-studio/Navio) |
-| **Mystery · D.E.X** | 🔵 稳定支持 | Windows x64 | `2.1.0` · 正式版          | [下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [指南](#mystery-guide)                            | [官方网站](https://mystery.mydex.top)               |
+| **Mystery · D.E.X** | 🔵 稳定支持 | Windows x64 | `2.1.0` · 正式版          | [下载](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [指南](#mystery-guide)                            | [项目介绍](https://github.com/dex-ovo-studio/Mystery)               |
+
+
+### 开发中的项目
+
+| 项目 | 方向 | 当前状态 | 公开下载 |
+| :--- | :--- | :--- | :--- |
+| **[D.E.X TUNE](https://github.com/dex-ovo-studio/DEX-TUNE)** | 便携 Windows 调试工具 | [0.8 内部原型](https://github.com/dex-ovo-studio/DEX-TUNE/blob/main/STATUS.md) | 尚未开放 |
+| **[D.E.X Rider](https://github.com/dex-ovo-studio/DEX-Rider)** | 摩托车机与语音交互 | [Rebuild 01 开发原型](https://github.com/dex-ovo-studio/DEX-Rider/blob/main/STATUS.md) | 尚未开放 |
+
+TUNE 状态依据 2026-11-11 的开发验收记录；Rider 状态依据 2026-09-06 的开发记录。整理时未重新测试设备。内部原型与公开发行分别标注。
 
 **稳定支持**表示当前版本继续提供维护与问题反馈渠道，暂不安排常规功能更新。更新频率与支持状态分别说明，具体定义见[支持说明](#support-policy)。
 
@@ -66,7 +80,7 @@
 
 ### Mystery · D.E.X
 
-**桌面客户端 · Windows x64 · 正式版**
+**盲盒与抽奖桌面软件 · Windows x64 · 正式版**
 
 Mystery 在官网与安装包中使用 **D.E.X** 名称。当前版本为 **2.1.0**，继续提供维护与问题反馈渠道。
 

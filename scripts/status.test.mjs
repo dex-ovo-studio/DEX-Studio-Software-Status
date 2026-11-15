@@ -1,9 +1,13 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { readFile } from 'node:fs/promises'
 import { render, refresh, validate } from './status.mjs'
 
-const catalog = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'))
+const catalog = { software: [{
+  name: 'Navio', repository: 'poniard-li/Navio', maintenance: 'active', stage: 'public-beta',
+  platforms: ['Windows x64'], version: '1.0.0-beta.7', releaseTag: 'v1.0.0-beta.7', checkedAt: '2026-11-15',
+  guide: 'https://github.com/poniard-li/Navio/blob/main/docs/guide.md',
+  changelog: 'https://github.com/poniard-li/Navio/blob/main/CHANGELOG.md'
+}] }
 const fixture = () => structuredClone(catalog)
 const response = data => ({ ok: true, json: async () => data })
 

@@ -33,7 +33,7 @@
 | 软件 | 支持状态 | 平台 | 当前版本 | 下载 / 指南 | 官方入口 |
 | :--- | :---: | :--- | :--- | :--- | :--- |
 | **Navio** | 🟢 常规更新 | Windows x64 | `1.0.0-beta.7` · 公开测试 | [下载](https://github.com/poniard-li/Navio/releases/tag/v1.0.0-beta.7) · [指南](https://github.com/poniard-li/Navio/blob/main/docs/guide.md) | [项目仓库](https://github.com/poniard-li/Navio) |
-| **Mystery · D.E.X** | 🔵 稳定支持 | Windows x64 | `2.1.0` · 正式版 | [下载](https://mystery.mydex.top/api/download) · [指南](#mystery-guide) | [官方网站](https://mystery.mydex.top) |
+| **Mystery · D.E.X** | 🔵 稳定支持 | Windows x64 | `2.1.0` · 正式版 | [下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [指南](#mystery-guide) | [官方网站](https://mystery.mydex.top) |
 
 **稳定支持**表示当前版本继续提供维护与问题反馈渠道，暂不安排常规功能更新。更新频率与支持状态分别说明，具体定义见[支持说明](#support-policy)。
 
@@ -68,7 +68,7 @@
 
 Mystery 在官网与安装包中使用 **D.E.X** 名称。当前版本为 **2.1.0**，继续提供维护与问题反馈渠道。
 
-[下载当前版本](https://mystery.mydex.top/api/download) · [官方网站](https://mystery.mydex.top) · [安装说明](#mystery-guide) · [历史版本](#mystery-history)
+[下载当前版本](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [官方网站](https://mystery.mydex.top) · [安装说明](#mystery-guide) · [历史版本](#mystery-history)
 
 <a id="mystery-guide"></a>
 
@@ -98,7 +98,7 @@ ff206d3eece2740ea557cc46e8571341cd3acf4b74d073806eb99c5a0d126880
 Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 ```
 
-以上信息对应 2.1.0 安装包。官网下载入口会随正式发布更新，请先核对版本与文件名。未签名安装包可能触发 Windows 安全提示；请确认下载来源，不要关闭系统防护。
+以上信息对应 2.1.0 安装包。GitHub 版本页提供固定版本归档；请下载其中的安装包，本仓库不提供客户端源码发行包。官网下载入口会随正式发布更新，请先核对版本与文件名。未签名安装包可能触发 Windows 安全提示；请确认下载来源，不要关闭系统防护。
 
 </details>
 
@@ -111,7 +111,7 @@ Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 | 软件 | 版本入口 | 下载范围 |
 | :--- | :--- | :--- |
 | **Navio** | [GitHub Releases](https://github.com/poniard-li/Navio/releases) | 按版本选择发布说明与对应附件。 |
-| **Mystery · D.E.X** | [历史版本记录](#mystery-history) | 当前下载为 2.1.0；旧版独立下载暂未开放。 |
+| **Mystery · D.E.X** | [历史版本记录](#mystery-history) | 提供当前版本和已归档安装包，每版附 SHA-256 校验文件。 |
 
 历史版本可能存在已知问题，安装前请阅读对应说明。官网下载按钮提供当前版本，不能用于下载指定旧版。
 
@@ -122,15 +122,15 @@ Get-FileHash -LiteralPath .\DEX-Setup-2.1.0-x64.exe -Algorithm SHA256
 
 | 版本 | 类型 | 下载状态 |
 | :--- | :--- | :--- |
-| 2.1.0 | 当前正式版 | [官网下载](https://mystery.mydex.top/api/download) |
-| 2.0.0 | 历史版本 | 归档整理中 |
+| 2.1.0 | 当前正式版 | [版本下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) · [官网下载](https://mystery.mydex.top/api/download) |
+| 2.0.0 | 历史版本 | [版本下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v2.0.0) |
 | 1.3.0 Local Test | 本地测试版 | 未开放公开下载 |
-| 1.2.0 | 历史版本 | 归档整理中 |
-| 1.1.0 | 历史版本 | 归档整理中 |
-| 1.0.0 | 历史版本 | 归档整理中 |
-| 0.2.0 | 早期版本 | 归档整理中 |
+| 1.2.0 | 历史版本 | [版本下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v1.2.0) |
+| 1.1.0 | 历史版本 | [版本下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v1.1.0) |
+| 1.0.0 | 历史版本 | [版本下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v1.0.0) |
+| 0.2.0 | 早期版本 | [版本下载](https://github.com/poniard-li/DEX-Studio-Software-Status/releases/tag/mystery-v0.2.0) |
 
-版本记录不代表完整发行历史。旧版仅在提供独立归档地址后开放下载；本地测试版与正式版分别标注。
+版本记录不代表完整发行历史。归档保留原始安装包，不代表旧版仍兼容当前账号服务。日常使用建议选择 2.1.0；1.3.0 Local Test 仍不提供公开下载。每个版本页均提供文件大小与 SHA-256。
 
 </details>
 

@@ -11,8 +11,8 @@
 - **[Tune](https://github.com/dex-ovo-studio/Tune) · 0.8 开发原型 / Development prototype.** 暂无公开安装包 / No public installer · [开发状态](https://github.com/dex-ovo-studio/Tune/blob/main/STATUS.md) · [反馈](https://github.com/dex-ovo-studio/Tune/issues).
 - **[Rovelio](https://github.com/dex-ovo-studio/Rovelio) · Rebuild 01 开发原型 / Development prototype.** 暂无公开镜像 / No public image · [开发状态](https://github.com/dex-ovo-studio/Rovelio/blob/main/STATUS.md) · [反馈](https://github.com/dex-ovo-studio/Rovelio/issues).
 
-Mystery 六个历史版本已在产品仓核验，首选从产品仓下载；原 [Software Status 归档](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases) 保留为兼容入口。<br>
-All six historical Mystery releases have been verified in the product repository. Download there first; the [Software Status archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases) remains available for compatibility.
+Mystery 六个已核验的历史版本均可从 [Mystery 产品仓发行列表](https://github.com/dex-ovo-studio/Mystery/releases)下载。<br>
+All six verified historical Mystery releases are available from the [Mystery product releases](https://github.com/dex-ovo-studio/Mystery/releases).
 
 <details>
 <summary><strong>安装与使用 / Install & use</strong></summary>
@@ -45,7 +45,7 @@ Download the versioned Windows installer, close the existing app and follow setu
 <summary><strong>历史版本 / Release history</strong></summary>
 
 
-[Navio 发行归档 / Navio releases](https://github.com/dex-ovo-studio/Navio/releases) · [Mystery 发行归档 / Mystery releases](https://github.com/dex-ovo-studio/Mystery/releases) · [旧 Status 兼容归档 / Legacy Status archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases)
+[Navio 发行归档 / Navio releases](https://github.com/dex-ovo-studio/Navio/releases) · [Mystery 发行归档 / Mystery releases](https://github.com/dex-ovo-studio/Mystery/releases)
 
 <a id="mystery-history"></a>
 
@@ -54,12 +54,12 @@ Download the versioned Windows installer, close the existing app and follow setu
 
 | 版本 / Version | 下载 / Download |
 | :--- | :--- |
-| **2.1.0 · 当前版本 / Current** | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v2.1.0) · [旧归档 / Legacy archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.1.0) |
-| 2.0.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v2.0.0) · [旧归档 / Legacy archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v2.0.0) |
-| 1.2.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v1.2.0) · [旧归档 / Legacy archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.2.0) |
-| 1.1.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v1.1.0) · [旧归档 / Legacy archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.1.0) |
-| 1.0.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v1.0.0) · [旧归档 / Legacy archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v1.0.0) |
-| 0.2.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v0.2.0) · [旧归档 / Legacy archive](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/tag/mystery-v0.2.0) |
+| **2.1.0 · 当前版本 / Current** | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v2.1.0) |
+| 2.0.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v2.0.0) |
+| 1.2.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v1.2.0) |
+| 1.1.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v1.1.0) |
+| 1.0.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v1.0.0) |
+| 0.2.0 | [产品版本页 / Product release](https://github.com/dex-ovo-studio/Mystery/releases/tag/mystery-v0.2.0) |
 
 旧版保留供回溯，不保证兼容当前账号服务。日常使用建议选择 2.1.0。  
 Archived releases may not support current account services. Use 2.1.0 for everyday use.

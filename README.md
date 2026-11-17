@@ -6,6 +6,9 @@
 
 ### 当前状态与入口 / Current status & links
 
+> **Navio Beta 7：** 断开后，Windows 系统代理有时不会恢复。若无法联网，请[恢复原代理设置](https://github.com/dex-ovo-studio/Navio/blob/main/docs/faq.md)。  
+> **Navio Beta 7:** Windows may keep the system proxy after disconnecting. If internet access fails, [restore your previous proxy settings](https://github.com/dex-ovo-studio/Navio/blob/main/docs/faq.md).
+
 - **[Navio](https://github.com/dex-ovo-studio/Navio) · 1.0.0 Beta 7 · Windows x64.** [安装版 / Installer](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [便携版 / ZIP](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) · [安装指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/install.md) · [FAQ](https://github.com/dex-ovo-studio/Navio/blob/main/docs/faq.md) · [反馈](https://github.com/dex-ovo-studio/Navio/issues).
 - **[Mystery](https://github.com/dex-ovo-studio/Mystery) · 2.1.0 · Windows x64 · 稳定支持 / Stable support.** [正式下载 / Product download](https://github.com/dex-ovo-studio/Mystery/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) · [安装指南](https://github.com/dex-ovo-studio/Mystery/blob/main/docs/guide.md) · [反馈](https://github.com/dex-ovo-studio/Mystery/issues).
 - **[Tune](https://github.com/dex-ovo-studio/Tune) · 0.8 开发原型 / Development prototype.** 暂无公开安装包 / No public installer · [开发状态](https://github.com/dex-ovo-studio/Tune/blob/main/STATUS.md) · [反馈](https://github.com/dex-ovo-studio/Tune/issues).
@@ -19,9 +22,6 @@ All six verified historical Mystery releases are available from the [Mystery pro
 
 升级前备份需要保留的资料，并退出正在运行的软件。Tune 与 Rovelio 尚未公开发行。  
 Back up your data and quit the app before upgrading. Tune and Rovelio have no public release yet.
-
-> **Navio Beta 7：** 部分断开场景下系统代理可能未恢复。使用前请阅读[已知问题](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7)。<br>
-> System proxy restoration may fail after disconnecting; read the known issue before use.
 
 <a id="mystery-guide"></a>
 

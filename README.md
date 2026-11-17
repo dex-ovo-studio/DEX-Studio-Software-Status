@@ -4,14 +4,21 @@
 
 <a id="install"></a>
 
+### 当前状态与入口 / Current status & links
+
+- **[Navio](https://github.com/dex-ovo-studio/Navio) · 1.0.0 Beta 7 · Windows x64.** [安装版 / Installer](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [便携版 / ZIP](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) · [安装指南](https://github.com/dex-ovo-studio/Navio/blob/main/docs/install.md) · [FAQ](https://github.com/dex-ovo-studio/Navio/blob/main/docs/faq.md) · [反馈](https://github.com/dex-ovo-studio/Navio/issues).
+- **[Mystery](https://github.com/dex-ovo-studio/Mystery) · 2.1.0 · Windows x64 · 稳定支持 / Stable support.** [现有兼容下载 / Existing download](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) · [安装指南](https://github.com/dex-ovo-studio/Mystery/blob/main/docs/guide.md) · [反馈](https://github.com/dex-ovo-studio/Mystery/issues).
+- **[Tune](https://github.com/dex-ovo-studio/Tune) · 0.8 开发原型 / Development prototype.** 暂无公开安装包 / No public installer · [开发状态](https://github.com/dex-ovo-studio/Tune/blob/main/STATUS.md) · [反馈](https://github.com/dex-ovo-studio/Tune/issues).
+- **[Rovelio](https://github.com/dex-ovo-studio/Rovelio) · Rebuild 01 开发原型 / Development prototype.** 暂无公开镜像 / No public image · [开发状态](https://github.com/dex-ovo-studio/Rovelio/blob/main/STATUS.md) · [反馈](https://github.com/dex-ovo-studio/Rovelio/issues).
+
+Mystery 的历史安装包暂从现有兼容归档下载。迁入产品仓并完成原始文件校验后，此页再切换首选下载入口。<br>
+Mystery downloads currently use the compatible archive. This page will prefer the product repository after the original files are migrated and verified.
+
 <details>
 <summary><strong>安装与使用 / Install & use</strong></summary>
 
 
-| 软件 / Software | 官方下载 / Download | 使用指南 / Guide |
-| :--- | :--- | :--- |
-| Navio · Windows x64 | [安装版 / Installer](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-setup.exe) · [免安装版 / ZIP](https://github.com/dex-ovo-studio/Navio/releases/download/v1.0.0-beta.7/Navio-v1.0.0-beta.7-Windows-x64-portable.zip) | [安装、配置与排障](https://github.com/dex-ovo-studio/Navio/blob/main/docs/guide.md) |
-| Mystery · Windows x64 | [安装版 / Installer](https://github.com/dex-ovo-studio/DEX-Studio-Software-Status/releases/download/mystery-v2.1.0/DEX-Setup-2.1.0-x64.exe) | [安装与升级](https://github.com/dex-ovo-studio/Mystery/blob/main/docs/guide.md) |
+
 
 升级前备份需要保留的资料，并退出正在运行的软件。Tune 与 Rovelio 尚未公开发行。  
 Back up your data and quit the app before upgrading. Tune and Rovelio have no public release yet.

@@ -16,7 +16,7 @@
 升级前备份需要保留的资料，并退出正在运行的软件。Tune 与 Rovelio 尚未公开发行。  
 Back up your data and quit the app before upgrading. Tune and Rovelio have no public release yet.
 
-> **Navio Beta 7：** 部分断开场景下系统代理可能未恢复。使用前请阅读[已知问题](https://github.com/dex-ovo-studio/Navio#版本与下载--releases--downloads)。  
+> **Navio Beta 7：** 部分断开场景下系统代理可能未恢复。使用前请阅读[已知问题](https://github.com/dex-ovo-studio/Navio/releases/tag/v1.0.0-beta.7)。  
 > System proxy restoration may fail after disconnecting; read the known issue before use.
 
 <a id="mystery-guide"></a>
